@@ -4,6 +4,8 @@ db_metaphlan="/data/database/MetaPhlAn/vOct22/"
 metaphlan_index="mpa_vOct22_CHOCOPhlAnSGB_202212"
 
 ## Download a demo data file
+mkdir inputs
+mkdir results
 wget -O inputs/demo.fastq.gz https://github.com/biobakery/humann/raw/master/examples/demo.fastq.gz
 
 ## Execute the code 
